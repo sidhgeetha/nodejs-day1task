@@ -5,11 +5,12 @@ import {format} from 'date-fns';
 const app =express();
 const PORT =4000;
 
-// app.get('/', (req,res)=>{
+app.get('/', (req,res)=>{
 
-//     res.status(200).json({message:"Hi team,welcome to guvi world"})
+    // res.status(200).json({message:"Hi team,welcome to guvi world"})
+    res.status(200).send(`<div style="background-color:yellow;color:green"> <h1>Hi team,welcome to guvi world </h1> </div>`)
 
-// })
+})
 
 
 
